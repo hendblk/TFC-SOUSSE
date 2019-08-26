@@ -1,0 +1,210 @@
+
+
+
+
+At Tasty Fried Chicken  we always strive to give our customers the best. 
+
+We look forward to providing you and your guests with freshly prepared fried chicken,  with 100%tunisian products .
+We hope to see you at Tasty Fried Chicken soon! 
+
+
+our schedule
+every day: 11:30 AM - 2:00 PM
+
+
+
+
+
+
+
+
+
+
+
+Egg Salad.............................................................................................................
+$7.50
+Chicken Salad........................................................................................................
+$9.95
+Baked Salmon Salad.........................................................................................................................................................................................................................................................
+$9.95
+White Fish Salad.........................................................................................................................................................................................................................................................
+$9.95
+White Meat Tuna Salad.........................................................................................................................................................................................................................................................
+$9.95
+Combo Salad Platter.........................................................................................................................................................................................................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connect, Follow and Share
+
+
+
+
+
+
+
+
+Input from our guests is important. If you've recently had a meal at our restaurant, please use the form below  
+for comments and suggestions and let us know what you think of this site and our restaurant. We're always looking for ways to improve our service and offerings.
+
+How would you rate the food at our restaurant?
+
+How would you rate the service at our restaurant?
+
+Do you have any suggestions for improvement?
+What's your name? (optional)
+What's your email address? (optional)
+ Submit
+
+/if you didnt try our meal yet click here /
+Contact Us
+How can we help you today?
+Send us a message and we’ll get back to you as soon as possible. You can also reach us by phone at 516-569-8600. Looking forward to hearing from you.
+
+
+Name
+E-Mail
+Phone
+How can we help you?
+
+Please verify that you are not a robot
+Send
+
+
+
+
+
+
+
+
+
+We've taken the guessing out of care costs.
+
+
+
+
+
+
+
+
+
+SEC2:********
+HTML/
+ <div id="header">
+              
+                <ul id="menu">
+                  <li><a href="/"><span>Home</span></a></li>
+                  <li><a href="/"><span>About us</span></a></li>
+                  <li><a href="/"><span>Location</span></a></li>
+                  <li><a href="/"><span>Contact us</span></a></li>
+                  <li><a href="/"><span>Menue</span></a></li>
+                </ul>
+              </div>
+
+
+
+CSS/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+.header{
+  padding: 20px 80px;
+  background: rgb(255, 255, 255) url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+}
+
+
+#menu {
+  width: 1000px;
+  height: 42px;
+  list-style: none;
+  margin: 10px 0 0 0; padding: 25px 10px;
+  border-top: 4px double rgb(255, 0, 0);
+  border-bottom: 4px double rgb(255, 6, 6);
+  position: relative;
+  text-align: center;
+}
+#menu li {
+  display: inline-block;
+  width: 173px;
+  margin: 0 10px;
+  position: relative;
+  -webkit-transform: skewy(-3deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: 200ms all;
+}
+#menu li a {
+  text-transform: uppercase;
+  font-family: 'Squada One', cursive;
+  font-weight: 800;
+  display: block;
+  background: #FFF;
+  padding: 2px 10px;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  text-shadow: 
+        1px 1px 0px #FFF, 
+        2px 2px 0px rgb(211, 71, 71),
+        3px 3px 0px rgb(231, 4, 4);
+    background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,.05) 100%);
+    -webkit-transition: 1s all;
+    background-image: -webkit-linear-gradient(left top, 
+        transparent 0%, transparent 25%, 
+        rgba(0,0,0,.15) 25%, rgba(0,0,0,.15) 50%, 
+        transparent 50%, transparent 75%, 
+        rgba(14, 195, 66, 0.15) 75%);
+  background-size: 4px 4px;
+    box-shadow: 
+        0 0 0 1px rgba(0,0,0,.4) inset, 
+        0 0 20px -5px rgba(0,0,0,.4),
+        0 0 0px 3px #FFF inset;
+}
+#menu li:hover {
+    width: 203px;
+    margin: 0 -5px;
+}
+#menu a:hover {
+  color: #d60202;
+}
+#menu li:after,
+#menu li:before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  -webkit-transform: skewY(8deg);
+  x-index: -3;
+    border-radius: 4px;
+}
+#menu li:after {
+    background-image: -webkit-linear-gradient(left, transparent 0%, rgba(255, 255, 255, 0.4) 100%);
+  right: 0;
+  top: -4px; 
+}
+#menu li:before {
+  left: 0;
+  bottom: -4px;
+    background-image: -webkit-linear-gradient(right, transparent 0%, rgba(0,0,0,.4) 100%);
+}

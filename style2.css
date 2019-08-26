@@ -1,0 +1,35 @@
+body{
+    background-image:url(https://scontent.ftun10-1.fna.fbcdn.net/v/t1.0-9/42734746_267241680591712_1016048000759234560_n.jpg?_nc_cat=103&_nc_eui2=AeGIZQJquyST2a8SYBPkrgvbJXoc26GktwmGkej75AWTVUljOSL2Gm3cdgiK8csRrYMYIhIuIsYCHNWXPMhXkMrUTVsznIjgjcSnK3vMcZ66FA&_nc_oc=AQktlY7AldeVHzZhrON_-JxbAmas3vE6gUKtmD7QVzo8sBwYsBdaRrZixCwrMONY3GY&_nc_ht=scontent.ftun10-1.fna&oh=90d866d8b1c97444ee9c3d2ffaa51ff3&oe=5DD3CCCE)}
+ h2 { margin-left: 500px;}   
+ h2 :hover{color: rgb(255, 255, 255);
+    border-block-start: 200px;
+  transition: 1s;
+  animation: forwards 0.7s ;
+    animation-iteration-count: none;
+    animation-delay: 0.2s;
+    background-image: radial-gradient(rgba(255, 0, 0, 0.523),rgba(0, 0, 0, 0.224))
+  
+  }
+    .ff2{height: 540px;
+        width: 300px;
+        margin-left: 500px;
+        border-radius : 10px ;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.639)
+      }
+      .ff2 :hover{color: rgb(255, 0, 0);
+        border-block-start: 200px;
+      transition: 1s;
+      animation: forwards 0.7s ;
+        animation-iteration-count: none;
+        animation-delay: 0.2s;
+      
+      }
+      .ff2 a {text-decoration: none;
+        color: red;
+        }
+        .ff2 button{background-image: linear-gradient(white ,rgba(121, 12, 12, 0.612))}
+        .contact :hover{color: rgb(255, 0, 0);
+        }
+      .em{font-size: 30px}
